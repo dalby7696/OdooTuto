@@ -1,0 +1,30 @@
+2022-03-18 10:05:30.188 +07 [6404] LOG:  database system was shut down at 2022-03-18 10:05:06 +07
+2022-03-18 10:05:30.210 +07 [6324] LOG:  database system is ready to accept connections
+2022-03-18 13:41:57.023 +07 [21264] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-18 13:41:57.023 +07 [21264] STATEMENT:  SELECT * FROM ir_cron FOR UPDATE NOWAIT
+2022-03-18 13:41:57.023 +07 [21064] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-18 13:41:57.023 +07 [21064] STATEMENT:  SELECT * FROM ir_cron FOR UPDATE NOWAIT
+2022-03-18 13:41:57.023 +07 [20400] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-18 13:41:57.023 +07 [20400] STATEMENT:  SELECT * FROM ir_cron FOR UPDATE NOWAIT
+2022-03-18 13:41:57.030 +07 [21264] ERROR:  current transaction is aborted, commands ignored until end of transaction block
+2022-03-18 13:41:57.030 +07 [21264] STATEMENT:  SELECT value FROM ir_translation
+	                       WHERE lang='en_US' AND type in ('code') AND src='Odoo is currently processing a scheduled action.
+	Module operations are not possible at this time, please try again later or contact your system administrator.' AND md5(src)=md5('Odoo is currently processing a scheduled action.
+	Module operations are not possible at this time, please try again later or contact your system administrator.')
+2022-03-18 13:41:57.031 +07 [20400] ERROR:  current transaction is aborted, commands ignored until end of transaction block
+2022-03-18 13:41:57.031 +07 [20400] STATEMENT:  SELECT value FROM ir_translation
+	                       WHERE lang='en_US' AND type in ('code') AND src='Odoo is currently processing a scheduled action.
+	Module operations are not possible at this time, please try again later or contact your system administrator.' AND md5(src)=md5('Odoo is currently processing a scheduled action.
+	Module operations are not possible at this time, please try again later or contact your system administrator.')
+2022-03-18 13:41:57.031 +07 [21064] ERROR:  current transaction is aborted, commands ignored until end of transaction block
+2022-03-18 13:41:57.031 +07 [21064] STATEMENT:  SELECT value FROM ir_translation
+	                       WHERE lang='en_US' AND type in ('code') AND src='Odoo is currently processing a scheduled action.
+	Module operations are not possible at this time, please try again later or contact your system administrator.' AND md5(src)=md5('Odoo is currently processing a scheduled action.
+	Module operations are not possible at this time, please try again later or contact your system administrator.')
+2022-03-18 13:41:58.153 +07 [21276] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-18 13:41:58.153 +07 [21276] STATEMENT:  SELECT * FROM ir_cron FOR UPDATE NOWAIT
+2022-03-18 13:41:58.155 +07 [21276] ERROR:  current transaction is aborted, commands ignored until end of transaction block
+2022-03-18 13:41:58.155 +07 [21276] STATEMENT:  SELECT value FROM ir_translation
+	                       WHERE lang='en_US' AND type in ('code') AND src='Odoo is currently processing a scheduled action.
+	Module operations are not possible at this time, please try again later or contact your system administrator.' AND md5(src)=md5('Odoo is currently processing a scheduled action.
+	Module operations are not possible at this time, please try again later or contact your system administrator.')

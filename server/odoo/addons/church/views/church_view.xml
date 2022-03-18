@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+
+     <record id="church_list_view" model="ir.ui.view">
+        <field name="name">church.list.view</field>
+        <field name="model">church.profile</field>
+        <field name="arch" type="xml">
+            <tree >
+                <field name="name"/>
+                <field name="email"/>
+                <field name="phone"/>
+                <field name="is_virtual_class"/>
+                <field name="church_rank"/>
+                <field name="result"/>
+                <field name="address"/>
+            </tree>
+        </field>
+
+    </record>
+
+    <record id="church_form_view" model="ir.ui.view">
+        <field name="name">church.form.view</field>
+        <field name="model">church.profile</field>
+        <field name="arch" type="xml">
+            <form>
+                <group>
+                    <group>
+                        <field name="name" placeholder="Please enter your name"/>
+                        <field name="email" placeholder="Please enter your email" required="True"/>
+                        <field name="phone" placeholder="Please enter your phone number"/>
+                        <field name="is_virtual_class"/>
+                        <field name="church_rank"/>
+                        <field name="result"/>
+                        <field name="address"/>
+<!--                        <field name="emailId"/>-->
+
+                    </group>
+                </group>
+            </form>
+        </field>
+    </record>
+
+
+
+
+    <record id="action_church_profile" model="ir.actions.act_window">
+        <field name="name">Church Profile</field>
+        <field name="res_model">church.profile</field>
+        <field name="view_mode">tree,form</field>
+        <field name="type">ir.actions.act_window</field>
+    </record>
+
+
+    <menuitem id="church_root_menu" name="Church"/>
+    <menuitem id="church_sub_menu" parent="church_root_menu" name="Church Profile"/>
+    <menuitem id="church_profile_menu" action="action_church_profile" parent="church_sub_menu"/>
+
+</odoo>

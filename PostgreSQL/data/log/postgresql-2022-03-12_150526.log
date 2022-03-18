@@ -1,0 +1,35 @@
+2022-03-12 15:05:26.406 +07 [6664] LOG:  database system was shut down at 2022-03-12 15:05:22 +07
+2022-03-12 15:05:26.419 +07 [14096] LOG:  database system is ready to accept connections
+2022-03-12 15:05:53.331 +07 [3960] FATAL:  database "odoo" does not exist
+2022-03-12 15:07:07.785 +07 [1744] FATAL:  password authentication failed for user "odooPostgre"
+2022-03-12 15:07:07.785 +07 [1744] DETAIL:  Role "odooPostgre" does not exist.
+	Connection matched pg_hba.conf line 86: "host    all             all             ::1/128                 md5"
+2022-03-12 15:11:47.627 +07 [10716] FATAL:  database "admin" does not exist
+2022-03-12 15:12:35.483 +07 [4236] FATAL:  database "admin" does not exist
+2022-03-12 15:13:34.718 +07 [13452] FATAL:  database "admin" does not exist
+2022-03-12 15:19:17.004 +07 [14828] FATAL:  database "admin" does not exist
+2022-03-12 15:19:27.465 +07 [14392] FATAL:  password authentication failed for user "admin"
+2022-03-12 15:19:27.465 +07 [14392] DETAIL:  Password does not match for user "admin".
+	Connection matched pg_hba.conf line 86: "host    all             all             ::1/128                 md5"
+2022-03-12 15:48:44.428 +07 [18716] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-12 15:48:44.428 +07 [18716] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=14
+	                                       FOR UPDATE NOWAIT
+2022-03-12 16:25:07.594 +07 [18716] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-03-12 16:25:07.594 +07 [7308] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-03-12 16:25:07.604 +07 [7848] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-03-12 16:25:07.604 +07 [18324] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-03-12 16:25:07.604 +07 [7860] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-03-12 16:25:07.604 +07 [11368] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-03-12 16:25:07.604 +07 [2764] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	

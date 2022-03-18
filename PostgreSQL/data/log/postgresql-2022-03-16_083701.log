@@ -1,0 +1,4 @@
+2022-03-16 08:37:01.263 +07 [6756] LOG:  database system was shut down at 2022-03-16 08:36:31 +07
+2022-03-16 08:37:01.315 +07 [6432] LOG:  database system is ready to accept connections
+2022-03-16 15:33:58.814 +07 [22496] ERROR:  relation "school_profile" does not exist at character 33
+2022-03-16 15:33:58.814 +07 [22496] STATEMENT:  SELECT "school_profile".id FROM "school_profile" WHERE TRUE ORDER BY  "school_profile"."id"   LIMIT 80

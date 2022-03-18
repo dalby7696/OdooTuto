@@ -1,0 +1,362 @@
+2022-03-16 00:08:44.742 +07 [29160] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 00:08:44.742 +07 [29160] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=14
+	                                       FOR UPDATE NOWAIT
+2022-03-16 01:08:44.447 +07 [16724] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 01:08:44.447 +07 [16724] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=14
+	                                       FOR UPDATE NOWAIT
+2022-03-16 01:18:54.578 +07 [21348] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 01:18:54.578 +07 [21348] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=2
+	                                       FOR UPDATE NOWAIT
+2022-03-16 01:18:54.578 +07 [10824] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 01:18:54.578 +07 [10824] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=2
+	                                       FOR UPDATE NOWAIT
+2022-03-16 01:18:54.580 +07 [33316] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 01:18:54.580 +07 [33316] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=14
+	                                       FOR UPDATE NOWAIT
+2022-03-16 01:18:54.590 +07 [21220] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 01:18:54.590 +07 [21220] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=14
+	                                       FOR UPDATE NOWAIT
+2022-03-16 02:08:44.139 +07 [21348] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 02:08:44.139 +07 [21348] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=14
+	                                       FOR UPDATE NOWAIT
+2022-03-16 02:18:54.283 +07 [10824] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 02:18:54.283 +07 [10824] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=10
+	                                       FOR UPDATE NOWAIT
+2022-03-16 02:18:54.297 +07 [21348] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 02:18:54.297 +07 [21348] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=9
+	                                       FOR UPDATE NOWAIT
+2022-03-16 02:18:54.308 +07 [21220] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 02:18:54.308 +07 [21220] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=2
+	                                       FOR UPDATE NOWAIT
+2022-03-16 02:18:54.311 +07 [29160] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 02:18:54.311 +07 [29160] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=14
+	                                       FOR UPDATE NOWAIT
+2022-03-16 03:08:43.877 +07 [1456] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 03:08:43.877 +07 [1456] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=14
+	                                       FOR UPDATE NOWAIT
+2022-03-16 03:18:53.997 +07 [21220] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 03:18:53.997 +07 [21220] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=10
+	                                       FOR UPDATE NOWAIT
+2022-03-16 03:18:54.016 +07 [29160] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 03:18:54.016 +07 [29160] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=8
+	                                       FOR UPDATE NOWAIT
+2022-03-16 03:18:54.027 +07 [1456] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 03:18:54.027 +07 [1456] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=2
+	                                       FOR UPDATE NOWAIT
+2022-03-16 03:18:54.033 +07 [21348] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 03:18:54.033 +07 [21348] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=14
+	                                       FOR UPDATE NOWAIT
+2022-03-16 04:08:43.560 +07 [15820] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 04:08:43.560 +07 [15820] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=14
+	                                       FOR UPDATE NOWAIT
+2022-03-16 04:18:53.690 +07 [10824] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 04:18:53.690 +07 [10824] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=2
+	                                       FOR UPDATE NOWAIT
+2022-03-16 04:18:53.697 +07 [16452] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 04:18:53.697 +07 [16452] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=14
+	                                       FOR UPDATE NOWAIT
+2022-03-16 05:08:43.241 +07 [16452] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 05:08:43.241 +07 [16452] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=14
+	                                       FOR UPDATE NOWAIT
+2022-03-16 05:18:53.377 +07 [1456] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 05:18:53.377 +07 [1456] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=8
+	                                       FOR UPDATE NOWAIT
+2022-03-16 05:18:53.383 +07 [23216] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 05:18:53.383 +07 [23216] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=9
+	                                       FOR UPDATE NOWAIT
+2022-03-16 05:18:53.387 +07 [1456] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 05:18:53.387 +07 [1456] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=2
+	                                       FOR UPDATE NOWAIT
+2022-03-16 05:18:53.391 +07 [21348] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 05:18:53.391 +07 [21348] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=14
+	                                       FOR UPDATE NOWAIT
+2022-03-16 06:08:43.020 +07 [21220] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 06:08:43.020 +07 [21220] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=14
+	                                       FOR UPDATE NOWAIT
+2022-03-16 06:18:53.163 +07 [16452] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 06:18:53.163 +07 [16452] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=14
+	                                       FOR UPDATE NOWAIT
+2022-03-16 06:18:53.168 +07 [21220] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 06:18:53.168 +07 [21220] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=10
+	                                       FOR UPDATE NOWAIT
+2022-03-16 06:18:53.174 +07 [29160] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 06:18:53.174 +07 [29160] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=8
+	                                       FOR UPDATE NOWAIT
+2022-03-16 06:18:53.176 +07 [21220] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 06:18:53.176 +07 [21220] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=9
+	                                       FOR UPDATE NOWAIT
+2022-03-16 06:18:53.181 +07 [33316] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 06:18:53.181 +07 [33316] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=2
+	                                       FOR UPDATE NOWAIT
+2022-03-16 07:08:42.751 +07 [1456] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 07:08:42.751 +07 [1456] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=14
+	                                       FOR UPDATE NOWAIT
+2022-03-16 07:18:52.862 +07 [21220] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 07:18:52.862 +07 [21220] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=10
+	                                       FOR UPDATE NOWAIT
+2022-03-16 07:18:52.868 +07 [33316] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 07:18:52.868 +07 [33316] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=8
+	                                       FOR UPDATE NOWAIT
+2022-03-16 07:18:52.870 +07 [21220] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 07:18:52.870 +07 [21220] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=9
+	                                       FOR UPDATE NOWAIT
+2022-03-16 07:18:52.875 +07 [29160] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 07:18:52.875 +07 [29160] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=2
+	                                       FOR UPDATE NOWAIT
+2022-03-16 07:18:52.878 +07 [21220] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 07:18:52.878 +07 [21220] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=14
+	                                       FOR UPDATE NOWAIT
+2022-03-16 08:08:42.428 +07 [21220] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 08:08:42.428 +07 [21220] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=14
+	                                       FOR UPDATE NOWAIT
+2022-03-16 08:18:52.576 +07 [33316] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 08:18:52.576 +07 [33316] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=10
+	                                       FOR UPDATE NOWAIT
+2022-03-16 08:18:52.594 +07 [1456] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 08:18:52.594 +07 [1456] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=9
+	                                       FOR UPDATE NOWAIT
+2022-03-16 08:18:52.598 +07 [15820] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 08:18:52.598 +07 [15820] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=2
+	                                       FOR UPDATE NOWAIT
+2022-03-16 08:18:52.602 +07 [1456] ERROR:  could not obtain lock on row in relation "ir_cron"
+2022-03-16 08:18:52.602 +07 [1456] STATEMENT:  SELECT *
+	                                       FROM ir_cron
+	                                       WHERE numbercall != 0
+	                                          AND active
+	                                          AND nextcall <= (now() at time zone 'UTC')
+	                                          AND id=14
+	                                       FOR UPDATE NOWAIT
+2022-03-16 08:36:27.020 +07 [21348] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-03-16 08:36:27.020 +07 [16452] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-03-16 08:36:27.020 +07 [29160] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-03-16 08:36:27.020 +07 [33316] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-03-16 08:36:27.020 +07 [23216] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-03-16 08:36:27.021 +07 [15820] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-03-16 08:36:27.027 +07 [32228] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-03-16 08:36:27.060 +07 [3564] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-03-16 08:36:27.060 +07 [6336] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-03-16 08:36:27.061 +07 [31976] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-03-16 08:36:27.061 +07 [28608] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-03-16 08:36:27.061 +07 [8316] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2022-03-16 08:36:31.412 +07 [14096] LOG:  received fast shutdown request
+2022-03-16 08:36:31.414 +07 [14096] LOG:  aborting any active transactions
+2022-03-16 08:36:31.415 +07 [21220] FATAL:  terminating connection due to administrator command
+2022-03-16 08:36:31.415 +07 [1456] FATAL:  terminating connection due to administrator command
+2022-03-16 08:36:31.416 +07 [16724] FATAL:  terminating connection due to administrator command
+2022-03-16 08:36:31.416 +07 [10824] FATAL:  terminating connection due to administrator command
+2022-03-16 08:36:31.416 +07 [21316] ERROR:  canceling statement due to user request
+2022-03-16 08:36:31.421 +07 [14096] LOG:  background worker "logical replication launcher" (PID 21316) exited with exit code 1
+2022-03-16 08:36:31.453 +07 [13148] LOG:  shutting down
+2022-03-16 08:36:31.537 +07 [14096] LOG:  database system is shut down
